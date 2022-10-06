@@ -1,7 +1,7 @@
-function hello(name,by,cy){
+function world(name,by,cy){
     const age = cy-by;
     const r = name+"is"+age;
     return r;
   }
 
-console.log(hello("hello",1871,1964));
+console.log(world("world",1871,1964));
