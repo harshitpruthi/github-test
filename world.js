@@ -4,4 +4,4 @@ function world(name,by,cy){
     return r;
   }
 
-console.log(world("world",1871,1964));
+console.log(hello("hello abcd",1871,1964));
