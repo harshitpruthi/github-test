@@ -4,4 +4,4 @@ function hello(name,by,cy){
     return r;
   }
 
-console.log(hello("hello",1871,1964));
+console.log(hello("hello abcd",1871,1964));
