@@ -29,13 +29,12 @@ jobs:
       - name: Install ESLint
         run: |
           npm install eslint@latest --save-dev
-          npm install @typescript-eslint/eslint-plugin --save-dev
-          npm install @groww-tech/eslint-config@latest --save-dev 
+          npm install @typescript-eslint/eslint-plugin --save-dev 
 
       - name: Run ESLint
         run: npx eslint .
           --config .eslintrc.json
           --ext .js,.jsx,.ts,.tsx
-          --format @groww-tech/eslint-config
+          --format @typescript-eslint/eslint-plugin
           --output-file eslint-results.sarif
         continue-on-error: false
